@@ -558,12 +558,12 @@ a {
     bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
 }
 
-.img6{
+.img6 {
     height: 20px;
     margin-top: 12px;
 }
 
-.li14{
+.li14 {
     text-align: center;
     height: 44px;
     width: 44px;
@@ -571,37 +571,106 @@ a {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.li14:hover{
+.li14:hover {
     text-align: center;
     height: 44px;
     width: 44px;
     border-radius: 44px;
-    background-color: rgb(33, 150, 243);;
+    background-color: rgb(33, 150, 243);
+    animation: rotateAnimation 0.8s ease-in-out;
 }
 
-.ul9{
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(36deg)
+    }
+
+    20% {
+        transform: rotate(-36deg)
+    }
+
+    40% {
+        transform: rotate(36deg)
+    }
+
+    60% {
+        transform: rotate(-36deg)
+    }
+
+    80% {
+        transform: rotate(36deg)
+    }
+
+    100% {
+        transform: rotate(-1deg)
+    }
+}
+
+.li14-2:hover {
+    transition: transform 0.8s ease-in-out;
+}
+
+.ul9 {
     margin-left: -40px;
     display: flex;
     justify-content: space-around;
 }
 
-.ul10{
+.ul10 {
     display: flex;
     justify-content: space-around;
 }
 
-.ul11{
+.ul11 {
     margin-top: 95px;
 }
 
-.li15{
+.li15 {
     margin-top: 12px;
 }
 
-.li15-1{
-    font-size:25px ;
+.li15-1 {
+    font-size: 25px;
 }
 
-.li14-1{
-margin-left:14px ;
+.li14-1 {
+    margin-left: 14px;
+}
+
+.li16 {
+    margin-top: 12px;
+}
+
+.li16-1 {
+    text-transform: uppercase;
+    letter-spacing: 3%;
+    font-size: 15px;
+}
+
+.button2 {
+    border: none;
+    background-color: #AFB1B8;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.button2:hover {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(90deg);
+
+}
+
+.div6 {
+    margin-left: 1550px;
+    margin-top: -200px;
+}
+
+.img7 {
+    margin-top: 5px;
+    margin-left: -5px;
+    width: 40px;
+    height: 35px;
 }
