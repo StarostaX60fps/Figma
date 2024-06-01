@@ -116,7 +116,7 @@ a {
 }
 
 .nav {
-    background-image: url(img/nav.svg);
+    background-image: url(photos-studia/nav.svg);
     margin-top: -16px;
     width: 1600px;
     height: 600px;
@@ -270,20 +270,20 @@ a {
 
     width: 370px;
     height: 294px;
-    background-image: url(img/mainPhoto1.svg);
+    background-image: url(photos-studia/mainPhoto1.svg);
     margin-left: -25px;
 }
 
 .li9 {
 
-    background-image: url(img/mainPhoto2.svg);
+    background-image: url(photos-studia/mainPhoto2.svg);
     width: 370px;
     height: 294px;
     margin-left: -300px;
 }
 
 .li10 {
-    background-image: url(img/mainPhoto3.svg);
+    background-image: url(photos-studia/mainPhoto3.svg);
     width: 370px;
     height: 294px;
     margin-left: -300px;
@@ -645,32 +645,4 @@ a {
     text-transform: uppercase;
     letter-spacing: 3%;
     font-size: 15px;
-}
-
-.button2 {
-    border: none;
-    background-color: #AFB1B8;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-}
-
-.button2:hover {
-    width: 50px;
-    height: 50px;
-    transition: transform 0.5s ease-in-out;
-    transform: rotate(90deg);
-
-}
-
-.div6 {
-    margin-left: 1550px;
-    margin-top: -200px;
-}
-
-.img7 {
-    margin-top: 5px;
-    margin-left: -5px;
-    width: 40px;
-    height: 35px;
 }
