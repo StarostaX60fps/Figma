@@ -13,6 +13,26 @@
 </head>
 
 <body>
+
+
+    <div class="loader-conteiner">
+        <img src="img/loading.gif" alt="">
+    </div>
+
+    <script>
+        function loader() {
+            document.querySelector('.loader-conteiner').
+                classList.add('active');
+        }
+
+        function fadeOut() {
+            setTimeout(loader, 3000);
+        }
+
+        fadeOut();
+    </script>
+
+
     <header>
         <div class="header-div">
             <ul class="ul">
@@ -35,7 +55,7 @@
                     </a>
                 </li> -->
                 <li class="li4">
-                    <img src="photos studia/heaerPhotoEmail.svg" alt="">
+                    <img src="photos-studia/heaerPhotoEmail.svg" alt="">
                     <h3>
                         <a class="h3"
                             href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrhThXjClktNnDVMTdMWTVdDnJgBVlzXqSFwWVxXVBgTQlGHBgVGFTzKgHhbKnjpQMjHBq">
@@ -198,7 +218,8 @@
         <ul class="ul8">
             <li>
                 <ul class="ul11">
-                    <li class="li15 li15-1"><b style="color: rgb(33, 150, 243);">Web</b><b style="color: rgb(255, 255, 255);">Studio</b></li>
+                    <li class="li15 li15-1"><b style="color: rgb(33, 150, 243);">Web</b><b
+                            style="color: rgb(255, 255, 255);">Studio</b></li>
                     <li class="li15" style="color: rgb(255, 255, 255);">м. Київ, пр-т Лесі Українки, 26</li>
                     <li class="li15" style="color: rgb(255, 255, 255, 0.6);">info@devstudio.com</li>
                     <li class="li15" style="color: rgb(255, 255, 255, 0.6);">+38 096 111 11 11</li>
@@ -221,11 +242,11 @@
                 <ul class="ul11">
                     <li style="color: rgb(255, 255, 255);">Підпишіться на розсилку</li>
                 </ul>
-                    <ul class="ul10">
+                <ul class="ul10">
                     <li><input class="input" placeholder="E-mail"></li>
                     <li>
-                        <ul >
-                            <li >
+                        <ul>
+                            <li>
                                 <div class="button1">
                                     <div class="button-wrapper">
                                         <div class="text">
