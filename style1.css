@@ -22,6 +22,38 @@ h1 {
 
 
 
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    padding: 10px;
+}
+
+.nav-link.active {
+    color: rgb(33, 150, 243);
+}
+
+.nav-link1 {
+    color: rgb(33, 33, 33);
+    font-family: Roboto;
+    font-size: 20px;
+    letter-spacing: 2%;
+}
+
+.nav-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: rgb(33, 150, 243);
+    /* transition: width 0.3s; */
+}
+
+
 .header-div {
     margin-top: -16px;
     background-color: rgb(255, 255, 255);
@@ -48,22 +80,43 @@ a {
 
 .li {
     font-family: Raleway;
-    margin-top: 24px;
+    margin-top: 13px;
     font-size: 26px;
 }
 
 .li1 {
-    margin-top: 16px;
+    margin-top: 13px;
     font-family: Roboto;
     margin-left: -10.5;
     font-size: 14px;
 }
 
+.nav-link {
+    position: absolute;
+    margin-top: 8px;
+}
+
 .li2 {
-    margin-left: -10.5px;
+    margin-left: -150.5px;
     margin-top: 16px;
     font-family: Roboto;
     font-size: 14px;
+}
+
+.img5 {
+    position: absolute;
+    margin-top: 17px;
+    margin-left: -145px;
+    width: 10px;
+    height: 16px;
+}
+
+.img4 {
+    position: absolute;
+    width: 16px;
+    height: 12px;
+    margin-top: 20.5px;
+    margin-left: -178px;
 }
 
 .h3_text {
@@ -82,7 +135,7 @@ a {
     display: flex;
     justify-content: space-around;
     margin-left: 147.5px;
-    margin-top: 16px;
+    margin-top: 4px;
     font-family: Roboto;
     font-size: 14px;
 }
@@ -91,8 +144,8 @@ a {
     color: rgb(117, 117, 117);
     display: flex;
     justify-content: space-around;
-    margin-right: 215px;
-    margin-top: 16px;
+    margin-right: 150px;
+    margin-top: 4px;
     font-family: Roboto;
     font-size: 14px
 }
@@ -255,7 +308,7 @@ a {
     width: 370px;
     height: 294px;
     overflow: hidden;
-    border-radius:10px;
+    border-radius: 10px;
     transition: transform 0.3s ease;
     cursor: pointer;
 }
@@ -336,4 +389,9 @@ a {
     line-height: 30px;
     letter-spacing: 3%;
     text-align: left;
+}
+
+.li7{
+    display: flex;
+    justify-content: space-around;
 }
